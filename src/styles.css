@@ -1,0 +1,40 @@
+:root {
+  /* 主题色板：全局深色风格 */
+  --bg: #0f1419;
+  --surface: #161d25;
+  --surface-hover: #1c252f;
+  --border: #26313d;
+  --text: #dbe4ee;
+  --muted: #8a9aab;
+  --accent: #5ec8f5;
+  --accent-soft: rgba(94, 200, 245, 0.12);
+
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC',
+    'Microsoft YaHei', sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+a {
+  color: var(--accent);
+}
+
+code {
+  font-family: 'Cascadia Code', Consolas, 'Courier New', monospace;
+}

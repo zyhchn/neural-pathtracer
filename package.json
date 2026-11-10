@@ -1,0 +1,25 @@
+{
+  "name": "neural-pathtracer",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "路径追踪示例：传统 WebGPU/TSL 实现 + 神经网络预测间接光的实现",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "gen:data": "node training/generate-dataset.ts"
+  },
+  "dependencies": {
+    "three": "^0.187.0",
+    "vue": "^3.5.45",
+    "vue-router": "^5.4.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.187.0",
+    "@vitejs/plugin-vue": "^6.0.10",
+    "typescript": "5.9.3",
+    "vite": "^8.3.6",
+    "vue-tsc": "^3.3.14"
+  }
+}
